@@ -52,7 +52,7 @@ This will create .tgz files for the charts in the current directory.
 Create an index.yaml file for your repository:
 
 
-    helm repo index . --url https://<your-github-username>.github.io/<your-repo-name>
+    helm repo index . --url https://<your-github-username>.github.io/<your-repo-name>   or you can use repo https URL. 
 
 Replace <your-github-username> and <your-repo-name> with your GitHub username and repository name, respectively. This will generate an index.yaml file in the current directory.
 
@@ -69,7 +69,7 @@ Set up GitHub Pages for your repository:
     Go to your repository on GitHub.
     Click on "Settings".
     Scroll down to "GitHub Pages".
-    Select the source branch and folder (e.g., main branch and /root or /docs folder).
+    Select the source branch and folder (e.g., main branch and /docs folder).
     Verify that the index.yaml file is accessible via your browser by visiting:
 
 
