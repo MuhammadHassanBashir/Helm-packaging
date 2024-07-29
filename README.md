@@ -69,7 +69,7 @@ Set up GitHub Pages for your repository:
     Go to your repository on GitHub.
     Click on "Settings".
     Scroll down to "GitHub Pages".
-    Select the source branch and folder (e.g., main branch and /docs folder).
+    Select the source branch and folder (e.g., main branch and /docs folder(by selecting this you will be notifing that our one page is live)).
     Verify that the index.yaml file is accessible via your browser by visiting:
 
 
@@ -79,7 +79,7 @@ Step 4: Use Your Helm Repository
 Add your Helm repository:
 
 
-    helm repo add myrepo https://<your-github-username>.github.io/<your-repo-name>
+    helm repo add myrepo https://<your-github-username>.github.io/<your-repo-name>  or you can use repo https URL. 
     helm repo update
 
 Install the etcd and Redis charts from your repository:
